@@ -1,0 +1,138 @@
+body {
+  height: 100%;
+  width: 100vw;
+
+  background-color: #fff;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.bg-order {
+  background-image: url('img1.jpg');
+  /* background-position: center; */
+  background-size: cover;
+  height: 100vh;
+}
+.nav {
+  background-color: #fff;
+  height: 50px;
+  box-shadow: 5px 5px 5px 2px rgb(235, 229, 229);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-list {
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.btn {
+  border: none;
+  background-color: #fff;
+  outline: none;
+  cursor: pointer;
+  font-weight: bolder;
+  color: black;
+}
+.bg-oreder-details {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 90px;
+}
+
+.gradient {
+  background-image: linear-gradient(
+    to right,
+    rgb(246, 74, 209),
+    rgb(247, 207, 29)
+  );
+  height: 10vh;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 5px 2px rgb(235, 229, 229);
+}
+
+.food-card {
+  background-color: rgb(253, 100, 125);
+  stroke-opacity: inherit;
+  height: 230px;
+  width: 500px;
+  opacity: 0.6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px;
+  box-sizing: border-box;
+  color: #fff;
+  padding-left: 10px;
+}
+
+.items {
+  height: 120vh;
+  background-image: linear-gradient(
+    to right,
+    rgb(246, 74, 209),
+    rgb(247, 207, 29)
+  );
+  box-shadow: 5px 5px 5px 2px rgb(235, 229, 229);
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.items-container {
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-img {
+  height: 250px;
+  width: 230px;
+  border-top-right-radius: 60px;
+}
+
+.food-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  box-sizing: border-box;
+  height: 380px;
+  width: 285px;
+  border-top-right-radius: 80px;
+  border-bottom-left-radius: 80px;
+  background-color: #fff;
+  margin-bottom: 130px;
+  margin-top: 120px;
+}
+.heading {
+  font-style: 'Roboto';
+  color: #fff;
+  font-weight: bolder;
+}
+.item-description {
+  text-align: center;
+}
+.button {
+  margin-bottom: 200px;
+  height: 150px;
+  width: 100px;
+  font-size: 20px;
+  padding: 10px;
+  background-color: rgb(227, 214, 189);
+  opacity: 0.7;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  font-weight: bolder;
+}
